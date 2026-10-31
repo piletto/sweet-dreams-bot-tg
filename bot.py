@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import config
 import telebot
 from random import choice
@@ -129,6 +128,4 @@ Commands:
 def echo_message(message):
     bot.reply_to(message, message.text)
 
-
->>>>>>> ed32ead2cc05c49774efe5b925771f706e29e82c
 bot.infinity_polling()
